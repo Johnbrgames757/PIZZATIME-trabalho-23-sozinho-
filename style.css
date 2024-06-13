@@ -1,0 +1,168 @@
+@font-face {
+    font-family:isu;
+    src: url(SocialScienceSans_PERSONAL_USE_ONLY.otf);
+}
+
+@font-face {
+    font-family:plr;
+    src: url(Onoma.otf);
+}
+
+@font-face {
+    font-family:x;
+    src: url(Retro\ Grade.otf);
+}
+
+@font-face {
+    font-family:z;
+    src: url(Looks\ Sketchy.ttf);
+}
+
+button{
+    font-size: 20px;
+    background-color: #3f6e6e4f;
+    font-family:plr;
+}
+
+select{
+    font-size: 20px;
+    font-family:z;
+}
+
+h1{
+    font-family: isu;
+    background: linear-gradient(to bottom, rgb(95, 95, 95),
+    rgb(0, 0, 0));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 35px;
+}
+
+body{
+    font-family:plr;
+    align-items: center;
+    text-align: center;
+    background-image: url(https://img.freepik.com/fotos-premium/uma-pizza-com-vista-para-as-montanhas-ao-fundo_865967-40889.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.box{
+    border: 4px solid;
+    background-color: #3f6e6e4f;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    padding: 35px;
+    
+}
+
+input{
+    font-size: 25px;
+    background-color: rgba(172, 249, 255, 0.288);
+    font-family:x;
+    
+}
+
+
+.dark-mode{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    
+}
+
+.dark-mode h1{
+    
+        font-family: isu;
+        background: linear-gradient(to bottom, rgb(255, 255, 255),
+        rgb(128, 128, 128));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 35px;
+}
+
+.dark-mode .box{
+    color:rgb(255, 255, 255)
+}
+
+.dark-mode footer{
+
+    color: rgb(255, 255, 255);
+}
+
+.dark-mode button{
+    color: white;
+    font-family:z;
+    font-size: 25px;
+}
+
+.dark-mode {
+    background-image: url(https://cdn.pixabay.com/photo/2020/03/21/02/26/pizza-4952509_960_720.jpg);
+}
+
+.bx h2{
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+.bx ul li{
+    margin: 10px 0;
+    list-style-type: none;
+}
+.bx ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.dark-mode .bx h2{
+    color: white;
+    text-decoration: none;
+}
+
+.bx ul li a:hover{
+    color: aqua;
+}
+
+
+@media all and (max-width: 760px) {
+    body{
+    background-image: url(https://img.freepik.com/premium-vector/pizza-ingredients-seamless-pattern-background_504403-260.jpg);
+    }
+
+    .box{
+        color: rgb(0, 0, 0);
+    }
+
+    .dark-mode{
+        color: rgb(255, 255, 255);
+        background-color: black;
+        
+    }
+    
+    .dark-mode h1{
+        
+            font-family: isu;
+            background: linear-gradient(to bottom, rgb(255, 255, 255),
+            rgb(128, 128, 128));
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 35px;
+    }
+    
+    .dark-mode .box{
+        color:rgb(255, 255, 255)
+    }
+    
+    .dark-mode footer{
+    
+        color: rgb(255, 255, 255);
+    }
+    
+    .dark-mode {
+        background-image: url(https://w0.peakpx.com/wallpaper/399/695/HD-wallpaper-pizza-neon-dark.jpg);
+    }
+}
